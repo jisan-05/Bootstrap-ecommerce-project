@@ -1,3 +1,11 @@
 .nav-color{
     background-color: #2980b9;
 }
+.dackground{
+    background-image: url(image/background2.avif);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:60px 0;
+}
