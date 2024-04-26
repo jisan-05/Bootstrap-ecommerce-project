@@ -11,14 +11,14 @@
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" >
   <!-- Css Link -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-light">
-  
-  <nav class="navbar navbar-expand-lg bg-primary" >
+
+  <nav class="navbar navbar-expand-lg bg-primary sticky-top">
     <div class="container-fluid px-5">
       <a class="navbar-brand fs-2 text-white" href="#">MY SHOP</a>
       <button class="navbar-toggler m-2 fs-5 text-white" type="button" data-bs-toggle="collapse"
@@ -27,7 +27,7 @@
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
+
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
@@ -52,11 +52,12 @@
               <li><a class="dropdown-item  text-white bg-primary" href="#">Something else here</a></li>
             </ul>
           </li>
-          <form class="d-flex" role="search">
-            <input class="form-control me-5 px-5 fs-5 w-100" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-danger text-white fs-5" type="submit">Search</button>
-          </form>
+          
         </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-5 px-5 fs-5 w-100" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger text-white fs-5" type="submit">Search</button>
+        </form>
 
       </div>
     </div>
@@ -68,13 +69,13 @@
   <header class="mb-5">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="6000">
           <img src="image/8d6a22d94a243bc76a43573528ef0cf6.jpg" class="d-block w-100 " alt="...">
-          
+
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img src="image/image2.webp" class="d-block w-100 " alt="...">
-          
+
         </div>
         <div class="carousel-item">
           <img src="image/image3.png" class="d-block w-100 img3" alt="...">
@@ -95,7 +96,7 @@
 
 
   <!-- Product section -->
-  <section class="container">
+  <div class="container">
     <div class="row ">
       <div class="col-lg-5 d-flex align-items-center justify-content-center ">
         <img src="image/men2.jpg" alt="men" class="img-fluid mb-4">
@@ -103,7 +104,7 @@
       <div class="col-lg-7">
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <div class="card" >
+            <div class="card">
               <img src="image/mobile1.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
@@ -121,7 +122,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
-            <div class="card" >
+            <div class="card">
               <img src="image/mobile2.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
@@ -139,7 +140,7 @@
             </div>
           </div>
           <div class="col-md-4  col-sm-6">
-            <div class="card" >
+            <div class="card">
               <img src="image/mobile3.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
@@ -158,8 +159,8 @@
           </div>
 
           <div class="col-md-4 mt-4 col-sm-6">
-            <div class="card" >
-              <img src="image/mobile1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card">
+              <img src="image/redmi1.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
                 <div class="d-flex justify-content-between">
@@ -177,8 +178,8 @@
           </div>
 
           <div class="col-md-4 mt-4 col-sm-6">
-            <div class="card" >
-              <img src="image/mobile1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card">
+              <img src="image/realme1.webp" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
                 <div class="d-flex justify-content-between">
@@ -196,8 +197,8 @@
           </div>
 
           <div class="col-md-4 mt-4 col-sm-6">
-            <div class="card" >
-              <img src="image/mobile1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card">
+              <img src="image/realme2.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Model : Samsung s24 Ultra</p>
                 <div class="d-flex justify-content-between">
@@ -216,18 +217,18 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- Trending Product Section -->
-  <section class="mt-4 container">
-    
+  <div class="mt-4 container">
+
     <p class="text-center h4 mt-5">Trending Product</p>
     <div class="row">
       <div class="col-md-3 col-sm-6 mb-4">
         <div class="card border-0 shadow">
           <p class="text-danger text-center p-1">SALE</p>
-          <img src="image/mobile1.jpg" class="card-img-top m-0" alt="...">
+          <img src="image/realme1.webp" class="card-img-top m-0 img-fluid" alt="...">
           <div class="card-body">
             <p class="m-0">Mobile</p>
             <p class="card-text">Phone model: Samsung s24 ultra</p>
@@ -242,14 +243,15 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 mb-4">
         <div class="card border-0 shadow">
           <p class="text-danger text-center p-1">SALE</p>
-          <img src="image/mobile1.jpg" class="card-img-top m-0" alt="...">
+          <img src="image/oppo2.jpeg" class="img-fluid m-0" alt="...">
           <div class="card-body">
             <p class="m-0">Mobile</p>
             <p class="card-text">Phone model: Samsung s24 ultra</p>
@@ -264,14 +266,15 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3 "><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 mb-4">
         <div class="card border-0 shadow">
           <p class="text-danger text-center p-1">SALE</p>
-          <img src="image/mobile1.jpg" class="card-img-top m-0" alt="...">
+          <img src="image/vivo1.png" class="card-img-top m-0" alt="...">
           <div class="card-body">
             <p class="m-0">Mobile</p>
             <p class="card-text">Phone model: Samsung s24 ultra</p>
@@ -286,14 +289,15 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3 "><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 mb-4">
         <div class="card border-0 shadow">
           <p class="text-danger text-center p-1">SALE</p>
-          <img src="image/mobile1.jpg" class="card-img-top m-0" alt="...">
+          <img src="image/vivo2.png" class="card-img-top m-0" alt="...">
           <div class="card-body">
             <p class="m-0">Mobile</p>
             <p class="card-text">Phone model: Samsung s24 ultra</p>
@@ -308,7 +312,8 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
@@ -333,7 +338,8 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
@@ -355,7 +361,8 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
@@ -377,7 +384,8 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
@@ -399,13 +407,14 @@
               </span>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-3"><i class="fa-solid fa-cart-plus mx-2"></i>Add to card</a>
-            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick view</a>
+            <a href="#" class="btn btn-outline-secondary w-100 mt-3"><i class="fa-regular fa-eye mx-2"></i>Quick
+              view</a>
           </div>
         </div>
       </div>
-      
+
     </div>
-  </section>
+  </div>
 
   <!-- Know me more section -->
 
@@ -416,55 +425,73 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
                 Accordion Item #1
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Accordion Item #2
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Accordion Item #3
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
           </div>
         </div>
-        
-        <a class="btn btn-outline-danger w-100 mt-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+
+        <a class="btn btn-outline-danger w-100 mt-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
           Get more details
         </a>
-        
-        
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <div>
-              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+              lists, etc.
             </div>
             <div class="dropdown mt-3">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
@@ -487,155 +514,242 @@
   </section>
 
 
-    <!-- Brand section -->
-    <section>
-      <div class="container">
-        <p class="h2 my-5 fw-semibold">Shop by Brand</p>
-        <div class="row">
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+  <!-- Brand section -->
+  <section>
+    <div class="container">
+      <h2 class=" my-5 fw-semibold">Shop by Brand</h2>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
           <img src="image/brand1.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand2.avif" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand3.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand4.avif" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand5.webp" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand6.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand7.jpeg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand8.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1 ">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand9.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1 ">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand10.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand11.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
-            <img src="image/brand12.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
-          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand2.avif" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand3.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand4.avif" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand5.webp" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand6.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand7.jpeg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand8.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1 ">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand9.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1 ">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand10.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand11.png" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2  text-center align-self-center">
+          <img src="image/brand12.jpg" alt="brand-1" class="img-fluid px-5 py-5 p-md-1 p-1">
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    <!-- Top selling product section -->
-    <section class="container">
-      <p class="h2 fw-semibold my-4">Top selling product</p>
-      <div class="row d-flex justify-content-between">
-        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
-          <div class="col-md-5">
-            <img src="image/product1.jpg" alt="product1" class="img-fluid">
-          </div>
-          <div class="col-md-5">
-            <span class="text-warning">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <i class="fa-regular fa-star"></i>
-            </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p class="d-flex justify-content-between">
-              <span class="fw-semibold text-danger"><s>$950.74</s></span>
-              <span class="fw-semibold text-primary">900.00</span>
-            </p>
-            <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
-          </div>
+  <!-- Top selling product section -->
+  <section class="container">
+    <h2 class="fw-semibold my-4">Top selling product</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
+        <div class="col-md-5">
+          <img src="image/product1.jpg" alt="product1" class="img-fluid">
         </div>
-
-        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
-          <div class="col-md-5">
-            <img src="image/product1.jpg" alt="product1" class="img-fluid">
-          </div>
-          <div class="col-md-5">
-            <span class="text-warning">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <i class="fa-regular fa-star"></i>
-            </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p class="d-flex justify-content-between">
-              <span class="fw-semibold text-danger"><s>$950.74</s></span>
-              <span class="fw-semibold text-primary">900.00</span>
-            </p>
-            <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
-          </div>
+        <div class="col-md-5">
+          <span class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="d-flex justify-content-between">
+            <span class="fw-semibold text-danger"><s>$950.74</s></span>
+            <span class="fw-semibold text-primary">900.00</span>
+          </p>
+          <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
         </div>
       </div>
 
-
-      <div class="row d-flex justify-content-between mt-5">
-        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
-          <div class="col-md-5">
-            <img src="image/product1.jpg" alt="product1" class="img-fluid">
-          </div>
-          <div class="col-md-5">
-            <span class="text-warning">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <i class="fa-regular fa-star"></i>
-            </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p class="d-flex justify-content-between">
-              <span class="fw-semibold text-danger"><s>$950.74</s></span>
-              <span class="fw-semibold text-primary">900.00</span>
-            </p>
-            <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
-          </div>
+      <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
+        <div class="col-md-5">
+          <img src="image/product1.jpg" alt="product1" class="img-fluid">
         </div>
-
-        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
-          <div class="col-md-5">
-            <img src="image/product1.jpg" alt="product1" class="img-fluid">
-          </div>
-          <div class="col-md-5">
-            <span class="text-warning">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half"></i>
-              <i class="fa-regular fa-star"></i>
-            </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p class="d-flex justify-content-between">
-              <span class="fw-semibold text-danger"><s>$950.74</s></span>
-              <span class="fw-semibold text-primary">900.00</span>
-            </p>
-            <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
-          </div>
+        <div class="col-md-5">
+          <span class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="d-flex justify-content-between">
+            <span class="fw-semibold text-danger"><s>$950.74</s></span>
+            <span class="fw-semibold text-primary">900.00</span>
+          </p>
+          <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
         </div>
       </div>
-    </section>
+    </div>
 
 
-    <!-- background section -->
-
-    <section class="container">
-      <a href="#">
-        <div class="dackground">
-          
+    <div class="row d-flex justify-content-between mt-5">
+      <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
+        <div class="col-md-5">
+          <img src="image/product1.jpg" alt="product1" class="img-fluid">
         </div>
-      </a>
-    </section>
+        <div class="col-md-5">
+          <span class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="d-flex justify-content-between">
+            <span class="fw-semibold text-danger"><s>$950.74</s></span>
+            <span class="fw-semibold text-primary">900.00</span>
+          </p>
+          <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
+        </div>
+      </div>
+
+      <div class="col-md-5 d-flex align-items-center justify-content-around bg-white p-4">
+        <div class="col-md-5">
+          <img src="image/product1.jpg" alt="product1" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+          <span class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="d-flex justify-content-between">
+            <span class="fw-semibold text-danger"><s>$950.74</s></span>
+            <span class="fw-semibold text-primary">900.00</span>
+          </p>
+          <a href="#" class="btn btn-danger mx-3 w-100">Add to card</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- background section -->
+
+  <div class="container">
+    <a href="#">
+      <div class="dackground">
+
+      </div>
+    </a>
+  </div>
+
+  <!-- From section -->
+  <div class="container">
+     <div class="row ">
+      <div class="col-md-6 align-self-center">
+        <form action="#">
+          <div class="d-flex justify-content-between">
+            <div class="col-5 ">
+              <label for="forname" class="form-label">Name:</label>
+              <input type="text" class="form-control" placeholder="Enter name" id="forname">
+            </div>
+            <div class="col-5">
+              <label for="foremail" class="form-label">Email:</label>
+              <input type="email" class="form-control" placeholder="Enter name" id="foremail">
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <label for="shippingadds" class="form-label">Shipping Address</label>
+            <input type="text" class="form-control" placeholder="Street address" id="shippingadds">
+            <input type="text" class="form-control mt-2" placeholder="Street address">
+          </div>
+          <div class="mt-3 d-flex justify-content-between">
+            <div class="col-5"><input type="text" class="form-control" placeholder="city"></div>
+            <div class="col-5"><input type="text" class="form-control" placeholder="region"></div>
+          </div>
+          <div class="mt-3 d-flex justify-content-between">
+            <div class="col-5"><input type="text" class="form-control" placeholder="postal /zip code"></div>
+            <div class="col-5">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select country</option>
+                <option value="1">india</option>
+                <option value="2">USA</option>
+                <option value="3">Canada</option>
+              </select>
+            </div>
+          </div>
+    
+          <div class="mt-3">
+            <label for="form-label" class="form-label">Write any message</label>
+            <textarea id="form-label" cols="30" rows="6" class="form-control"></textarea>
+          </div>
+
+        </form>
+      </div>
+      <div class="col-md-6 align-self-center">
+        <img src="image/ecommerce.jpg" alt="dslr" class="img-fluid">
+      </div>
+     </div>
+  </div>
+
+
+
+  <!-- Footer section -->
+  <footer class="container mt-5">
+    <div class="h2 text-danger text-center mt-3">BD Shop</div>
+    <hr class="border border-1 border-danger">
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="h4 mb-4">About Us</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reprehenderit laborum adipisci?</p>
+      </div>
+      <div class="col-md-3 col-6">
+        <p class="h4 mb-4">Feature</p>
+        <p><a href="#" class="text-decoration-none">About us</a></p>
+        <p><a href="#" class="text-decoration-none">Best products</a></p>
+        <p><a href="#" class="text-decoration-none">Terms & COndition</a></p>
+      </div>
+      <div class="col-md-3 col-6">
+        <p class="h4 mb-4">General Links</p>
+        <p><a href="#" class="text-decoration-none">Blog</a></p>
+        <p><a href="#" class="text-decoration-none">Traking Orders</a></p>
+        <p><a href="#" class="text-decoration-none">Become a seller</a></p>
+      </div>
+      <div class="col-md-3 col-6">
+        <p class="h4 mb-4">Helpful</p>
+        <p><a href="#" class="text-decoration-none">Flash Sale</a></p>
+        <p><a href="#" class="text-decoration-none">FAQ</a></p>
+        <p><a href="#" class="text-decoration-none">Support</a></p>
+      </div>
+    </div>
+
+    <hr class="border border-1 border-danger">
+    <div class="text-center mb-5 mt-4"> &copy; Copyright || 2024</div>
+
+  </footer>
 
 
   <!-- Bootstrap JS CDN Link -->
